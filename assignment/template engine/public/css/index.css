@@ -1,0 +1,40 @@
+.index-form {
+    width: 20rem;
+    max-width: 100%;
+    padding : 0 2.5rem;
+}
+
+.form-control {
+    margin: 2rem 0;
+}
+
+.form-control label,
+.form-control input {
+    display: block;
+    width: 100%;
+    font-family: Gulim;
+    font-size: 10pt;
+}
+
+.form-control input {
+    border: 1px solid hsl(0, 2%, 10%);
+    font: gulim;
+    font-size : 10pt;
+    border-radius: 2px;
+}
+
+button {
+    font: gulim;
+    font-size : 10pt;
+    border: 1px solid hsl(240, 14%, 99%);
+    color: hsl(255, 22%, 96%);
+    background: #3e00a1;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover,
+button:active {
+    background-color: #f1f0f3;
+    color: rgb(63, 6, 65);
+}
