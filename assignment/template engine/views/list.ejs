@@ -1,0 +1,13 @@
+<%- include('includes/head.ejs') %>
+<link rel="stylesheet" href="/css/list.css">
+    <h1 class = "List">List</h1>
+    <% if (peoples.length > 0) { %>
+        <ul class ="namelist">
+            <% peoples.forEach((peoples) => { %>
+                <li><%= peoples.name %></li>
+            <% }) %>
+        </ul>
+    <% } else { %>
+        <h1>No Users Found!</h1>
+    <% } %>
+<%- include('includes/end.ejs') %>

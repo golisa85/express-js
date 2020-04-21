@@ -1,0 +1,11 @@
+<%- include('includes/head.ejs') %>
+<link rel="stylesheet" href="/css/index.css">
+    <form class="index-form" action="/add-people" method="POST">
+        <div class="form-control">
+            <label for="title">Type new name</label>
+            <input type="text" name="peoplesname">
+            <button type="submit">Add</button>
+        </div>
+    </form>
+<%- include('includes/end.ejs') %>
+
